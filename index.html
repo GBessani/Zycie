@@ -16,12 +16,12 @@
                 <li><a href="#destaques">Destaques</a></li>
                 <li><a href="#produtos">Produtos</a></li>
                 <li><a href="#cart">carrinho</a></li>
+                <li><a href="#pay">Pagamento</a></li>
             </ul>
         </nav>
     </header>
-  
     <main>
-       
+        
         <section id="header h1">
             <div class="destaque">    
             <h2><em>Não deixe para comprar amanhã</em></h2>
@@ -75,6 +75,42 @@
                 <input type="number" id="Qtd5">
                 <button onclick="carrinho_De_Compras('Short', 29.90,'Qtd5')">Adicionar ao Carrinho</button>
             </div>
+        
+        </span> 
+
+        <span class="flex-container" id="produtos 2">
+            <div class="produto">
+                <img src="imagens/vestido.jpeg" alt="Vestido">
+                <h3>Vestido</h3>
+                <hr/>
+                <p>R$ 49,90</p>
+                <input type="number" id="Qtd2">
+                <button onclick="carrinho_De_Compras('Vestido', 49.90,'Qtd2')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto2">
+                <img src="imagens/Short.jpeg" alt="Shorts">
+                <h3>Short</h3>
+                <hr/>
+                <p>R$ 29,90</p>
+                <input type="number" id="Qtd3">
+                <button onclick="carrinho_De_Compras('Short', 29.90,'Qtd3')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto2">
+                <img src="imagens/Short.jpeg" alt="Shorts">
+                <h3>Short</h3>
+                <hr/>
+                <p>R$ 29,90</p>
+                <input type="number" id="Qtd4">
+                <button onclick="carrinho_De_Compras('Short', 29.90,'Qtd4')">Adicionar ao Carrinho</button>
+            </div>
+            <div class="produto2">
+                <img src="imagens/Short.jpeg" alt="Shorts">
+                <h3>Short</h3>
+                <hr/>
+                <p>R$ 29,90</p>
+                <input type="number" id="Qtd5">
+                <button onclick="carrinho_De_Compras('Short', 29.90,'Qtd5')">Adicionar ao Carrinho</button>
+            </div>
         </span> 
         
         <section id="cartName">
@@ -82,18 +118,20 @@
                 <h4><em>Carrinho De Compras</em></h4>  
             </div>
         </section>
+
         <section id="cart">
             <div class="cart" id = "total"> 
                 <h4><em>Total: 0.00</em></h4>
             </div>
         </section>
+
         <section id = "limpar">
             <div class="cart" id = "limpar"> 
                 <button onclick="limpar()">Limpar carrinho</button>
             </div>
         </section>
 
-        <div class="destaque">
+        <div class="pay" id="pay">
             <h1>Selecione um Método de Pagamento</h1>
             <div class="payment-method">
                 <input type="radio" id="credit-card" name="payment" value="credit-card">

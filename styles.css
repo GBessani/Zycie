@@ -88,6 +88,13 @@ main {
     padding: 0rem;
     text-align: center;
 }
+.pay {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin: 1rem;
+    padding: 0rem;
+    text-align: center;
+}
 
 footer {
     background-color: #ff66b2; /* Tom de rosa mais escuro */
